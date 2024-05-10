@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../../components/common/Header';
 import Footer from '../../components/common/Footer';
-import DefalutLayout from '../../layouts/DefalutLayout';
+import DefaultLayout from '../../layouts/DefaultLayout';
 import SubLayout from '../../layouts/SubLayout';
 
 const HelloPage = () => {
     return (
-        <DefalutLayout>
+        <DefaultLayout>
             <SubLayout>
                 <img src="../images/sub_page1_article_txt.png" alt="건강한 먹거리를 위해 노력합니다." />
 
@@ -34,7 +34,7 @@ const HelloPage = () => {
                     <br />
                 </p>
             </SubLayout>
-        </DefalutLayout>
+        </DefaultLayout>
     );
 };
 

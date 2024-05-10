@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-import './styles/style.css';
+import './styles/style.scss';
+import './styles/admin.scss';
 import { RouterProvider } from 'react-router-dom';
 import root from './router/root';
 
